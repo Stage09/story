@@ -22,9 +22,11 @@
     justify-content: center;
 }
 @media(max-width:450px) {
+    .section{
+        margin-bottom: 15px;
+    }
     .container{
         margin-top: 15px;
-        padding: 5px 5px 2px 5px;
     }
     h1{
         justify-content: center;
@@ -35,5 +37,4 @@
         display: flex;
         font-weight: 600;
     }
-    
 }
