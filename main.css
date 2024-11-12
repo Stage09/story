@@ -38,4 +38,10 @@
         font-weight: 600;
         padding: 1px 1px;
     }
+    hr{
+        margin-top: 15px;
+    }
+    a{
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
