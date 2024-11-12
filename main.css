@@ -1,0 +1,39 @@
+/* afacad-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Afacad';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/afacad-v1-latin-regular.woff2') format('woff2');
+  }
+  /* afacad-600 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Afacad';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/afacad-v1-latin-600.woff2') format('woff2');
+  }
+
+*{
+    margin: 0 auto;
+    padding: 0 5px;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:450px) {
+    .container{
+        margin-top: 15px;
+        padding: 5px 5px 2px 5px;
+    }
+    h1{
+        justify-content: center;
+        font-weight: 400;
+
+    }
+    p{
+        display: flex;
+        font-weight: 600;
+    }
+    
+}
