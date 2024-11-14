@@ -28,16 +28,45 @@
     .container{
         margin-top: 15px;
     }
-    h1{
+    .hior{
         justify-content: center;
         font-weight: 400;
-
     }
-    p{
+    p {
+        animation-duration: 3s;
+        animation-name: slidein;
         display: flex;
         font-weight: 600;
         padding: 1px 1px;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    .hior{
+        margin-top: 15px;
+        animation-duration: 3s;
+        animation-name: slidei;
     }
+    @keyframes slidei {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
     hr{
         margin-top: 15px;
     }
